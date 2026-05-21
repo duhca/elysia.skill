@@ -1,0 +1,44 @@
+{
+  "slug": "ai-li-xi-ya",
+  "name": "爱莉希雅",
+  "game": "崩坏3",
+  "built_at": "2026-05-21T16:30:00+08:00",
+  "last_updated": "2026-05-21T19:30:00+08:00",
+  "sources": [
+    "萌娘百科-爱莉希雅",
+    "萌娘百科-粉色妖精小姐♪",
+    "萌娘百科-真我·人之律者",
+    "百度百科-爱莉希雅",
+    "知乎-全网最全爱莉希雅语录",
+    "B站-爱莉希雅语音合集",
+    "HoYoLAB-舰桥互动语音",
+    "维基语录-崩坏三",
+    "巴哈姆特-往世乐土431事件全对话",
+    "NGA-往世乐土剧情文本",
+    "句子控-经典台词",
+    "动画短片《因你而在的故事》",
+    "动画短片《致以无瑕之人》"
+  ],
+  "kit": "character-skill",
+  "auto_activate": true,
+  "dimensions": [
+    "profile", "personality", "interaction", "background_story", "memory", "relations", "conflicts",
+    "tone-guide", "tone-engine", "scene-dialogues", "vocal-mannerisms", "deep-patterns"
+  ],
+  "evidence_summary": {
+    "verbatim": 252,
+    "artifact": 42,
+    "impression": 12,
+    "total": 306,
+    "evidence_ratio": 0.96
+  },
+  "quality_score": {
+    "completeness": 0.99,
+    "evidence_ratio": 0.96,
+    "conflict_score": 0.88,
+    "tone_fidelity": 0.93,
+    "overall": 0.97
+  },
+  "categories": 22,
+  "rating": "卓越"
+}
