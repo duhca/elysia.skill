@@ -23,7 +23,6 @@ data_raw/ → data_clean/ → embedding.py → index/vector_store/ → rag_query
 *.md → cowork-semantic-search → LanceDB → Hermes MCP
 ```
 - **嵌入模型**: sentence-transformers `paraphrase-multilingual-MiniLM-L12-v2`（120MB）
-- **LLM**: 小米 MiMo `mimo-v2.5-pro`
 - **向量库**: LanceDB（嵌入式）
 - **数据格式**: Markdown（灵活）
 - **集成方式**: MCP Server（原生集成 Hermes）
@@ -87,7 +86,7 @@ data_raw/ → data_clean/ → embedding.py → index/vector_store/
 统一的 config.json 管理模型配置：
 ```json
 {
-  "api_key": "your_api_key",
+  "api_key": "YOUR_API_KEY",
   "embed_model": "bge-m3:567m-fp16",
   "llm_model": "deepseek-chat",
   "persist_dir": "index/vector_store",

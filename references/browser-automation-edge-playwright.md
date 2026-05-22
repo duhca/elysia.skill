@@ -39,7 +39,7 @@ const { chromium } = require('playwright');
   console.log(content);
   
   // 截图
-  await page.screenshot({ path: '/tmp/screenshot.png', fullPage: false });
+  await page.screenshot({ path: 'screenshot.png', fullPage: false });
   
   await browser.close();
 })();
@@ -52,7 +52,7 @@ const { chromium } = require('playwright');
 4. **等待时间**：SPA 页面需要足够的等待时间让 JavaScript 渲染完成
 
 ## 常见 SPA 网站
-- LongCat AI (longcat.chat) - 美团龙猫平台
+- AI平台
 - 其他 React/Vue/Angular 构建的网站
 
 ## 调试技巧

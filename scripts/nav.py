@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 from typing import List, Dict
 
-SKILL_DIR = Path("/home/ubuntu/.hermes/skills/creative/ai-li-xi-ya")
+SKILL_DIR = Path(__file__).parent.parent
 
 
 def list_files() -> List[Dict]:

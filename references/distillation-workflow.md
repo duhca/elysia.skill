@@ -28,7 +28,6 @@ Game Data (wiki/scripts/quotes)
   Task 3: Cultural context (10 Chinese festivals) → 21KB
   Task 4: Philosophical dialogues (10 topics) → 12KB
        │
-       ▼ Xiaomi MiMo (mimo-v2.5) 分段生成
   Background story expansion: 28KB → 75KB
   5-part segmented generation → merge
        │
@@ -39,9 +38,7 @@ Game Data (wiki/scripts/quotes)
 ## Key Techniques
 
 ### 1. Multi-API Distillation (Model Priority Order)
-- **LongCat-Flash-Lite (美团)**: **PREFERRED — use first for all distillation.** Free tier 500K tokens/day. Fast, good at Chinese character dialogue. Proven effective for V5.1 (4 datasets, 33.5KB) and V6.0 (full character coverage, 37KB). User explicitly prefers this model — always try LongCat first before falling back.
 - **GPT-4o (GitHub Models)**: Best for nuanced Chinese character dialogue. Free tier: Low (15 RPM, 150 RPD). Use ONLY when LongCat output quality is insufficient for a specific task.
-- **Xiaomi MiMo (mimo-v2.5-pro)**: Has reasoning capability (734 tokens of reasoning per response). Good for large document generation. Paid subscription (tp-key prefix). Off-peak 00:00-08:00 BJT = 0.8x rate. Use as fallback only when LongCat fails or is rate-limited.
 
 **Important: User correction** — "记住要使用龙猫模型，优先使用LongCat-Flash-Lite". Do NOT default to MiMo or GPT-4o without trying LongCat first.
 
@@ -69,13 +66,10 @@ GitHub Models: https://models.inference.ai.azure.com/v1
   Auth: Bearer github_pat_xxx
   Free: 15 RPM / 150 RPD (Low tier)
 
-LongCat: https://api.longcat.chat/openai/v1
   Models: LongCat-Flash-Chat (256K ctx), LongCat-Flash-Thinking
   Auth: Bearer ak_xxx
   Free: 500K tokens/day
 
-Xiaomi MiMo: https://token-plan-cn.xiaomimimo.com/v1
-  Models: mimo-v2.5-pro (reasoning), mimo-v2.5, mimo-v2-omni (vision)
   Auth: Bearer tp_xxx
   Status: Paid subscription (tp- prefix key)
 ```

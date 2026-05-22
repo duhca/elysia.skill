@@ -118,7 +118,6 @@ MiMo v2.5-pro 单独验证时：
 ## 参考文件
 - `character-lookup.md` — 【新增】角色速查表（官方验证版），用于快速查找角色位次和刻印信息
 - `references/calling-conventions.md` — 【新增】称呼习惯验证记录，包含爱莉希雅对各英桀的称呼规则
-- `references/mimo-verification-limits.md` — 【新增】MiMo验证能力评估，包含正确的验证流程
 
 本技能附带以下支持文件：
 - `references/sources-index.md` — 台词数据来源索引（252条verbatim的出处记录）

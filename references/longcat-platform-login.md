@@ -61,6 +61,6 @@ await loginBtn.click();
 - 状态: 等待舰长手动注册/登录后继续
 
 ## 截图保存
-- 登录页面: `/tmp/longcat_screenshot.png`
-- 手机号输入后: `/tmp/longcat_phone_filled.png`
-- 验证码发送后: `/tmp/longcat_code_sent.png`
+- 登录页面: `longcat_screenshot.png`
+- 手机号输入后: `longcat_phone_filled.png`
+- 验证码发送后: `longcat_code_sent.png`
