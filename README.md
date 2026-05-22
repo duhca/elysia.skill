@@ -42,7 +42,7 @@ ai-li-xi-ya/
 │   ├── sources-index.md     # 数据来源索引
 │   ├── calling-conventions.md # 称呼习惯规范
 │   ├── verification-*.md    # 验证报告（官方资料对比）
-│   └── distill-*-v7.md      # V7.0蒸馏文件（LongCat-Flash-Thinking-2601）
+│   └── distill-*-v7.md      # V7.0蒸馏文件
 └── scripts/
     ├── nav.py               # 导航工具（交互式搜索）
     └── verify_stats.py      # 台词统计验证脚本
