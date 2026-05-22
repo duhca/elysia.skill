@@ -4,7 +4,7 @@
 
 通过游戏数据蒸馏而成的 **爱莉希雅角色扮演Skill**，已达到开箱即用的效果。无需额外提示词或知识库，即可让AI准确还原爱莉希雅的说话风格、性格特征与情感表达。
 
-基于《崩坏3》游戏内207+条 verbatim 台词、全剧情文本、舰桥互动语音、往世乐土事件记录、动画短片等官方素材精心蒸馏训练而成。
+基于《崩坏3》游戏内252+条 verbatim 台词、全剧情文本、舰桥互动语音、往世乐土事件记录、动画短片等官方素材精心蒸馏训练而成。
 
 ---
 
@@ -23,24 +23,29 @@
 ```
 ai-li-xi-ya/
 ├── SKILL.md                 # 技能入口与扮演规则
+├── NAVIGATION.md            # 文件导航（快速查找）
 ├── profile.md               # 角色身份与核心标签
 ├── personality.md           # 性格、动机、价值观与语气规则注入
 ├── background_story.md      # 完整背景故事（诞生→牺牲→传承）
 ├── memory.md                # 世界观记忆与往世乐土设定
 ├── relations.md             # 人际关系网络
 ├── conflicts.md             # 设定冲突与保守表述
+├── character-lookup.md      # 角色速查表（官方验证版）
 ├── interaction.md           # 252条verbatim台词 + 语气深度训练规则
 ├── manifest.json            # 元数据与质量评估
 ├── README.md                # 本文件
-├── LICENSE                  # MIT 开源许可证
 ├── references/
 │   ├── tone-guide.md        # 语气完全指南：句法模式/温度谱/用词/节奏
 │   ├── tone-engine.md       # 语气生成引擎：8大模板/替换表/情绪映射
 │   ├── scene-dialogues.md   # 100个场景爱莉式回应全集
 │   ├── vocal-mannerisms.md  # 多轮对话/反例训练/声音特征手册
 │   ├── deep-patterns.md     # 深层语言模式分析
-│   └── sources-index.md     # 数据来源索引
+│   ├── sources-index.md     # 数据来源索引
+│   ├── calling-conventions.md # 称呼习惯规范
+│   ├── verification-*.md    # 验证报告（官方资料对比）
+│   └── distill-*-v7.md      # V7.0蒸馏文件（LongCat-Flash-Thinking-2601）
 └── scripts/
+    ├── nav.py               # 导航工具（交互式搜索）
     └── verify_stats.py      # 台词统计验证脚本
 ```
 
@@ -73,10 +78,10 @@ ai-li-xi-ya/
 |------|------|
 | verbatim台词 | 252条 |
 | 场景对话 | 100个 |
-| 训练轮次 | 7轮（句法分析→生成引擎→场景对话→多轮反例→深层模式→N-gram→场景扩充） |
-| 参考文献 | 6份（语气指南/生成引擎/场景对话/声音特征/深层模式/来源索引） |
-| 文件总数 | 16个 |
-| 总大小 | ~200KB |
+| 训练轮次 | 7轮 |
+| 参考文献 | 6份 |
+| 文件总数 | 49个 |
+| 总大小 | ~300KB |
 
 ---
 
@@ -85,7 +90,7 @@ ai-li-xi-ya/
 ### 系统要求
 
 - Hermes Agent（推荐）或任何支持SKILL格式的AI平台
-- 支持自定义技能的AI应用（如Claude Code、Codex等支持Agent Skills的平台）
+- 支持自定义技能的AI应用
 
 ### 安装方法
 
@@ -93,7 +98,25 @@ ai-li-xi-ya/
 2. 将 `ai-li-xi-ya/` 目录放入技能目录
 3. 在对话中激活技能（加载SKILL.md）
 
-### 特性
+### 快速导航
+
+```bash
+# 列出所有文件
+python3 scripts/nav.py list
+
+# 搜索关键词（如：凯文、爱莉、语气）
+python3 scripts/nav.py search <关键词>
+
+# 查看文件摘要
+python3 scripts/nav.py show <文件路径>
+
+# 按分类查看文件
+python3 scripts/nav.py category 核心文件
+```
+
+---
+
+## 特性
 
 - ✅ **开箱即用**：无需额外提示词或知识库
 - ✅ **252条verbatim原文**：所有台词均有出处
@@ -101,6 +124,8 @@ ai-li-xi-ya/
 - ✅ **100个场景对话**：覆盖日常/严肃/调戏/告别等常见场景
 - ✅ **连续发言支持**：自动分段发言（2-4条短消息依次发送）
 - ✅ **♪收尾规则**：保持爱莉标志性的说话风格
+- ✅ **导航工具**：快速搜索和查找文件
+- ✅ **官方验证**：结合百度百科等官方资料验证
 - ✅ **MIT开源**：可自由使用和修改
 
 ---

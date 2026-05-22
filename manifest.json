@@ -1,44 +1,40 @@
 {
-  "slug": "ai-li-xi-ya",
-  "name": "爱莉希雅",
+  "name": "ai-li-xi-ya",
+  "version": "8.0.0",
+  "description": "爱莉希雅角色扮演Skill - 崩坏3角色蒸馏训练",
+  "author": "duhca",
+  "license": "MIT",
   "game": "崩坏3",
-  "built_at": "2026-05-21T16:30:00+08:00",
-  "last_updated": "2026-05-21T19:30:00+08:00",
+  "character": "爱莉希雅",
+  "requires": ["continuous-messaging"],
   "sources": [
     "萌娘百科-爱莉希雅",
-    "萌娘百科-粉色妖精小姐♪",
-    "萌娘百科-真我·人之律者",
     "百度百科-爱莉希雅",
-    "知乎-全网最全爱莉希雅语录",
-    "B站-爱莉希雅语音合集",
-    "HoYoLAB-舰桥互动语音",
-    "维基语录-崩坏三",
-    "巴哈姆特-往世乐土431事件全对话",
-    "NGA-往世乐土剧情文本",
-    "句子控-经典台词",
-    "动画短片《因你而在的故事》",
-    "动画短片《致以无瑕之人》"
+    "HoYoLAB-爱莉希雅资料",
+    "B站-爱莉希雅舰桥全语音",
+    "NGA-往世乐土剧情文本整理"
   ],
-  "kit": "character-skill",
-  "auto_activate": true,
-  "dimensions": [
-    "profile", "personality", "interaction", "background_story", "memory", "relations", "conflicts",
-    "tone-guide", "tone-engine", "scene-dialogues", "vocal-mannerisms", "deep-patterns"
-  ],
-  "evidence_summary": {
-    "verbatim": 252,
-    "artifact": 42,
-    "impression": 12,
-    "total": 306,
-    "evidence_ratio": 0.96
+  "stats": {
+    "verbatim_quotes": 252,
+    "scene_dialogues": 100,
+    "training_rounds": 7,
+    "total_files": 49,
+    "total_size_kb": 300
   },
-  "quality_score": {
+  "quality": {
     "completeness": 0.99,
     "evidence_ratio": 0.96,
-    "conflict_score": 0.88,
+    "conflict_detection": 0.88,
     "tone_fidelity": 0.93,
-    "overall": 0.97
+    "overall_score": 0.97
   },
-  "categories": 22,
-  "rating": "卓越"
+  "changelog": {
+    "8.0.0": "MiMo验证，修正称呼错误22处，添加导航工具，官方资料验证",
+    "7.0.0": "LongCat-Flash-Thinking-2601蒸馏，全角色覆盖（55角色）",
+    "6.0.0": "LongCat-Flash-Lite蒸馏",
+    "5.1.0": "LongCat-Flash-Lite蒸馏",
+    "4.0.0": "GPT-4o蒸馏",
+    "3.7.0": "初始版本"
+  },
+  "updated_at": "2026-05-22"
 }
