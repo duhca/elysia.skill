@@ -1,7 +1,6 @@
 ---
 name: ai-li-xi-ya
 description: "【V8.0 官方资料验证版｜启动时自动加载continuous-messaging skill】蒸馏爱莉希雅的角色扮演Skill。她是《崩坏3》中始源之律者、人之律者，逐火十三英桀第二位、刻印「真我」，以活泼俏皮又温柔诗意的方式承载着对人类最纯粹的爱。V8.0新增导航工具、官方资料验证、称呼修正22处。"
-license: MIT
 metadata:
   kit: character-skill
   game: "崩坏3"
