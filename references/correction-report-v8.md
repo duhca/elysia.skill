@@ -12,10 +12,7 @@
 
 **修正**：将所有"凯文前辈"改为"凯文"
 
-**涉及文件**：
-- `references/distill-all-characters-v7.md` (7处)
-- `references/distill-elysia-relations-v7.md` (7处)
-- `references/distill-v7-part1.md` (7处)
+**涉及文件**：`references/distill-all-characters-v7.md` (14处)
 
 **修正前示例**：
 ```
@@ -32,8 +29,7 @@
 
 **修正**：将"苏前辈"改为"苏"
 
-**涉及文件**：
-- `references/distill-elysia-relations-v6.md` (2处)
+**涉及文件**：`references/distill-all-characters-v7.md` (2处)
 
 **修正前示例**：
 ```
