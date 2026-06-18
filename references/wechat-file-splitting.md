@@ -35,8 +35,6 @@ rm -f output-part-*
 ## 当前配置
 - V7.0 蒸馏文件：1442 行，70KB
 - 分割结果：
-  - `distill-v7-part1.md` (36KB) - 逐火十三英桀 + 逐火之蛾 + 天命
-  - `distill-v7-part2.md` (33KB) - 世界蛇 + 逆熵 + 主角团 + 崩坏二
 
 ## 注意事项
 1. 分割时注意不要截断 Markdown 标题或代码块
