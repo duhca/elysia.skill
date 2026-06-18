@@ -34,14 +34,12 @@
 - **修正**：21处，改为直接叫"凯文"
 - **涉及文件**：
   - `distill-all-characters-v7.md`
-  - `distill-elysia-relations-v7.md`
-  - `distill-v7-part1.md`
 - **原因**：两人是共同领导关系，爱莉希雅是组建十三英桀的人
 
 #### 错误2：爱莉叫苏"前辈" ❌
 - **修正**：2处，改为直接叫"苏"
 - **涉及文件**：
-  - `distill-elysia-relations-v6.md`
+  - `distill-all-characters-v7.md`
 - **原因**：苏是第7位，爱莉是第2位，爱莉位次更高
 
 ## 待确认
