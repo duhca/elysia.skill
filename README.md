@@ -56,4 +56,4 @@ cp -r 爱莉希雅.skill ~/.hermes/skills/creative/
 
 ## 许可证
 
-MIT
+本项目内容基于《崩坏3》游戏数据，版权归米哈游（HoYoverse）所有。本项目仅为非商业角色扮演辅助工具。
