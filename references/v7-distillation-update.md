@@ -13,17 +13,11 @@
 ```
 references/
 ├── distill-all-characters-v7.md      # 整合版（55角色，60KB）
-├── distill-elysia-relations-v7.md    # 英桀关系对话
-├── distill-firefly-relations-v7.md   # 逐火之蛾关系对话
-├── distill-schiksal-relations-v7.md  # 天命关系对话
-├── distill-world-serpent-relations-v7.md  # 世界蛇关系对话
-├── distill-anti-entropy-relations-v7.md   # 逆熵关系对话
-├── distill-protagonist-relations-v7.md    # 主角团关系对话
-└── distill-hi2-relations-v7.md       # 崩坏二角色对话
+└── （V7分组文件已整合，仅保留此一个文件）
 ```
 
 ## 数据质量验证
-- ✅ 文件完整性：7个分类文件 + 1个整合文件
+- ✅ 文件完整性：整合版包含全部55角色
 - ✅ 角色设定准确性：位次、刻印、性格符合官方资料
 - ✅ 语气风格一致性：爱莉希雅的甜美、俏皮、温柔风格保持一致
 - ✅ 对话自然度：LongCat-Flash-Thinking-2601生成质量高
