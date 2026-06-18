@@ -58,46 +58,11 @@ python3 scripts/nav.py category <分类名>
 
 ## 📂 蒸馏文件（按版本）
 
-### V7.0（最新，LongCat-Flash-Thinking-2601，质量最高）
+### V7.0（LongCat-Flash-Thinking-2601，质量最高，V4/V5/V6旧版已清理）
 
 | 文件 | 内容 | 大小 |
 |------|------|------|
 | `references/distill-all-characters-v7.md` | 崩坏系列全角色关系对话（55角色） | 69KB |
-| `references/distill-elysia-relations-v7.md` | 逐火十三英桀全员关系对话（12组） | 21KB |
-| `references/distill-firefly-relations-v7.md` | 逐火之蛾组织关系对话（7组） | 5KB |
-| `references/distill-schiksal-relations-v7.md` | 天命组织关系对话（8组） | 8KB |
-| `references/distill-world-serpent-relations-v7.md` | 世界蛇组织关系对话（4组） | - |
-| `references/distill-anti-entropy-relations-v7.md` | 逆熵组织关系对话（6组） | 4.5KB |
-| `references/distill-protagonist-relations-v7.md` | 主角团关系对话（6组） | 5.6KB |
-| `references/distill-hi2-relations-v7.md` | 崩坏二角色关系对话（12组） | 12KB |
-| `references/distill-v7-part1.md` | V7.0蒸馏数据第一部分 | 36KB |
-| `references/distill-v7-part2.md` | V7.0蒸馏数据第二部分 | 33KB |
-
-### V6.0（LongCat-Flash-Lite）
-
-| 文件 | 内容 | 大小 |
-|------|------|------|
-| `references/distill-elysia-relations-v6.md` | 逐火十三英桀全员关系对话（12组） | 17KB |
-| `references/distill-other-relations-v6.md` | 其他重要角色关系对话（15组） | 14KB |
-| `references/distill-relationship-map-v6.md` | 崩坏三全角色关系图谱 | 7.5KB |
-
-### V5.1（LongCat-Flash-Lite）
-
-| 文件 | 内容 | 大小 |
-|------|------|------|
-| `references/distill-relation-dialogues-v5.md` | 5组英桀关系对话 | 6KB |
-| `references/distill-emotional-transitions-v5.md` | 5种情绪渐变对话链 | 11KB |
-| `references/distill-cultural-context-v5.md` | 5种中华文化语境场景 | 9.6KB |
-| `references/distill-philosophical-dialogues-v5.md` | 5个深度哲学话题 | 19KB |
-
-### V4.0（GPT-4o）
-
-| 文件 | 内容 | 大小 |
-|------|------|------|
-| `references/distill-relation-dialogues.md` | 13位英桀+舰长角色关系专属对话 | 35KB |
-| `references/distill-emotional-transitions.md` | 10种情绪渐变对话链 | 22KB |
-| `references/distill-cultural-context.md` | 10个中华文化语境场景 | 21KB |
-| `references/distill-philosophical-dialogues.md` | 10个深度哲学话题 | 12KB |
 
 ---
 
@@ -126,10 +91,11 @@ python3 scripts/nav.py category <分类名>
 
 | 文件 | 内容 | 用途 |
 |------|------|------|
-| `references/distillation-workflow.md` | V4.0蒸馏技术文档 | 了解蒸馏流程 |
 | `references/sources-index.md` | 台词数据来源索引 | 252条verbatim出处记录 |
 | `references/github-update-workflow.md` | GitHub仓库更新流程 | 备份→rsync→push |
 | `references/rag-reference-project.md` | RAG参考项目分析 | LlamaIndex+Ollama方案 |
+| `references/repo-maintenance-plan.md` | 仓库维护计划 | 瘦身清单、同步状态 |
+| `references/python-playwright-setup.md` | Python Playwright配置 | Edge自动化环境 |
 | `scripts/verify_stats.py` | 验证统计脚本 | 检查技能完整性 |
 
 ---
@@ -139,7 +105,6 @@ python3 scripts/nav.py category <分类名>
 | 文件 | 内容 | 用途 |
 |------|------|------|
 | `references/browser-automation-edge-playwright.md` | Edge+Playwright浏览器自动化 | 访问SPA网站 |
-| `references/longcat-platform-login.md` | LongCat平台登录流程 | 手机号验证 |
 | `references/wechat-file-splitting.md` | WeChat大文件分割发送 | 解决发送超时 |
 
 ---
@@ -177,6 +142,7 @@ python3 scripts/nav.py category <分类名>
 
 | 日期 | 版本 | 内容 |
 |------|------|------|
+| 2026-06-18 | V8.0+ | 瘦身：清理V4/V5/V6旧蒸馏+V7重复，添加continuous-messaging |
 | 2026-05-22 | V8.0 | MiMo验证，修正称呼错误22处 |
 | - | V7.0 | LongCat-Flash-Thinking-2601蒸馏，全角色覆盖 |
 | - | V6.0 | LongCat-Flash-Lite蒸馏 |
@@ -186,4 +152,4 @@ python3 scripts/nav.py category <分类名>
 
 ---
 
-*最后更新：2026年5月22日*
+*最后更新：2026年6月18日*
